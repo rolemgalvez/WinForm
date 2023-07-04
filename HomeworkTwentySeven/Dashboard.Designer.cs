@@ -67,16 +67,17 @@ namespace HomeworkTwentySeven
             this.lastNameText.Location = new System.Drawing.Point(197, 95);
             this.lastNameText.Name = "lastNameText";
             this.lastNameText.Size = new System.Drawing.Size(497, 43);
-            this.lastNameText.TabIndex = 1;
+            this.lastNameText.TabIndex = 2;
             // 
             // addButton
             // 
             this.addButton.Location = new System.Drawing.Point(24, 164);
             this.addButton.Name = "addButton";
             this.addButton.Size = new System.Drawing.Size(670, 47);
-            this.addButton.TabIndex = 2;
+            this.addButton.TabIndex = 3;
             this.addButton.Text = "Add";
             this.addButton.UseVisualStyleBackColor = true;
+            this.addButton.Click += new System.EventHandler(this.addButton_Click);
             // 
             // namesListBox
             // 
@@ -85,7 +86,8 @@ namespace HomeworkTwentySeven
             this.namesListBox.Location = new System.Drawing.Point(24, 232);
             this.namesListBox.Name = "namesListBox";
             this.namesListBox.Size = new System.Drawing.Size(670, 226);
-            this.namesListBox.TabIndex = 3;
+            this.namesListBox.TabIndex = 4;
+            this.namesListBox.TabStop = false;
             // 
             // Dashboard
             // 
